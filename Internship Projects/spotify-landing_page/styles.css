@@ -1,0 +1,145 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: #fff;
+    background-color: #121212;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    background-color: #0000007a;
+    top: 0;
+    z-index: 1000;
+}
+
+.logo img {
+    height: 53px;
+    margin-right: 847px;
+    width: 53px;
+}
+
+.header .nav {
+    margin-left: 60px;
+}
+
+.logo-txt {
+    font-size: 1.5rem;
+    font-weight: 850;
+    color: rgb(255, 255, 255);
+    display: flex;
+    align-items: center;
+    margin-left: 60px;
+}
+
+.header .nav ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.header .nav ul li {
+    margin: 0 1rem;
+}
+
+.header .nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.btn-login {
+    background-color: #fff;
+    color: #000000;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.hero {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url('https://cdn.mos.cms.futurecdn.net/nS4bjbyKmiSYtyq4VFAYJF.jpeg') no-repeat center center/cover; 
+    text-align: center;
+    
+}
+
+.hero-content {
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 2rem;
+    border-radius: 10px;
+    animation: fadeIn 2s ease-in-out;
+}
+
+.hero h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+.hero p {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+}
+
+.btn-get-started {
+    background-color: #1DB954;
+    color: #fff;
+    border: none;
+    padding: 0.7rem 1.5rem;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.btn-get-started:hover {
+    background-color: white;
+    color: #1DB954;
+}
+
+.btn-login:hover {
+    background-color: #1DB954;
+    color: rgb(255, 255, 255);
+    transition-delay: 58ms;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+.features, .pricing, .about, .contact {
+    padding: 4rem 2rem;
+    text-align: center;
+}
+
+.features h2, .pricing h2, .about h2, .contact h2 {
+    margin-bottom: 2rem;
+}
+
+.feature-item {
+    margin: 1rem 0;
+}
+
+.pricing-card {
+    background-color: #222;
+    padding: 1.5rem;
+    margin: 1rem;
+    border-radius: 10px;
+    display: inline-block;
+    min-width: 200px;
+}
+
+.footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: #000;
+}
+
+.footer p {
+    margin: 0;
+}
